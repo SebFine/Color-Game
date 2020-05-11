@@ -1,0 +1,61 @@
+body {
+    background-color: #232323;
+    margin: 0 auto;
+    font-family: "Montserrat", "Avenir";
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    background-color: blueviolet;
+    margin: 1.66%;
+    border-radius: 25px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    margin:0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: teal;
+    text-align: center;
+}
+
+.functions {
+    color: #232323;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+button {
+    background-color: none;
+    font-size: inherit;
+    border: none;
+    display: inline-block;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: teal;
+    letter-spacing: 1px;
+}
+
+#rgb {
+    font-size: 200%;
+}
+
+#result {
+    display: inline-block;
+    width: 20%;
+}
