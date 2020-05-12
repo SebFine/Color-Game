@@ -49,6 +49,12 @@ button {
     font-weight: 700;
     color: teal;
     letter-spacing: 1px;
+    outline: none;
+}
+
+.active,
+button:hover {
+    background-color: lavender;
 }
 
 #rgb {
@@ -58,4 +64,8 @@ button {
 #result {
     display: inline-block;
     width: 20%;
+}
+
+.none {
+    display: none;
 }
